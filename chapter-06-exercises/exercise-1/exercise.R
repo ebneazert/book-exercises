@@ -12,10 +12,10 @@ print(name_length)
 
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
-now_doing <- print(paste(my_name, "is programming"))
+now_doing <- paste(my_name, "is programming")
 
 # Make the `now_doing` variable upper case
-uppercase <- print(toupper(now_doing))
+uppercase <- toupper(now_doing)
 
 ### Bonus
 
@@ -26,23 +26,23 @@ fav_2 <- 55
 
 # Divide each number by the square root of 201 and save the new value in the
 # original variable
-fav_1 <- print(fav_1 / sqrt(201))
-fav_2 <- print(fav_2 / sqrt(201))
+fav_1 <- fav_1 / sqrt(201)
+fav_2 <- fav_2 / sqrt(201)
 
 # Create a variable `raw_sum` that is the sum of the two variables. Use the 
 # `sum()` function for practice.
-raw_sum <- print(sum(fav_1, fav_2))
+raw_sum <- sum(fav_1, fav_2)
 
 # Create a variable `round_sum` that is the `raw_sum` rounded to 1 decimal place.
 # Use the `round()` function.
-round_sum <- print(round(raw_sum, digits = 1))
+round_sum <- round(raw_sum, digits = 1)
 
 # Create two new variables `round_1` and `round_2` that are your `fav_1` and 
 # `fav_2` variables rounded to 1 decimal places
-round_1 <- print(round(fav_1, digits = 1))
-round_2 <- print(round(fav_2, digits = 1))
+round_1 <- round(fav_1, digits = 1)
+round_2 <- round(fav_2, digits = 1)
 # Create a variable `sum_round` that is the sum of the rounded values
-sum_round <- print(sum(round_1, round_2))
+sum_round <- sum(round_1, round_2)
 
 # Which is bigger, `round_sum` or `sum_round`? (You can use the `max()` function!)
-compare <- print(max(round_sum, sum_round))
+compare <- max(round_sum, sum_round)
